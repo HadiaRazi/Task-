@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Quote Layout</title> 
+  <link rel="stylesheet" href="styles.css"> 
+ <style type="text/css" id="dcoder_stylesheet">body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    display: grid;
+    border:bolde;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.quote-box {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.quote-box p {
+    margin: 0;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.yellow {
+    background-color: #fffacd;  Light Yellow
+    background-border:red;
+}
+
+.blue {
+    background-color: #e0f2f7; /* Light Cyan */
+}
+
+.green {
+    background-color: #e8f5e9; /* Light Green */
+}
+
+.light-yellow {
+    background-color: #fffde7; /* Lightest Yellow */
+}
+
+</style></head> 
+ <body> 
+  <div class="container"> 
+   <div class="quote-box yellow"> 
+    <p>"Well, if crime fighters fight crime and fire fighters fight fire, what do freedom fighters fight? They never mention that part to us." - George Carlin</p> 
+   </div> 
+   <div class="quote-box blue"> 
+    <p>"All you need in this life is ignorance and confidence; then success is sure." - Mark Twain</p> 
+   </div> 
+   <div class="quote-box green"> 
+    <p>"Turns out you have a really fun time if you go to work every day and focus on being silly and having a good time!" - Hannah Murray</p> 
+   </div> 
+   <div class="quote-box light-yellow"> 
+    <p>"Great minds discuss ideas; average minds discuss events; small minds discuss people." - Eleanor Roosevelt</p> 
+   </div> 
+  </div> 
+ 
+</body></html>
